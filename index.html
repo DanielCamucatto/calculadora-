@@ -16,7 +16,7 @@
           <br />
 
           <div class="calculadora">
-            <input type="text" class="form-control resultado" placeholder="0" disabled="disabled" />
+            <input id="result" type="text" class="form-control resultado" placeholder="0" disabled="disabled" />
             
             <div class="row">
               <button onclick="calc('action', 'c')" type="button" class="btn btn-dark btn-lg clear font-weight-light">C</button>
@@ -42,7 +42,7 @@
               <button onclick="calc('value', 1)" type="button" class="btn btn-dark btn-lg font-weight-light">1</button>
               <button onclick="calc('value', 2)" type="button" class="btn btn-dark btn-lg font-weight-light">2</button>
               <button onclick="calc('value', 3)" type="button" class="btn btn-dark btn-lg font-weight-light">3</button>
-              <button onclick="calc('actinq', '=')" type="button" class="btn btn-dark btn-lg enter">=</button>
+              <button onclick="calc('action', '=')" type="button" class="btn btn-dark btn-lg enter">=</button>
             </div>
 
             <div class="row" style="margin-top: -60px">
